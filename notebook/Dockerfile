@@ -41,7 +41,6 @@ ENV PATH="/opt/venv/bin:$PATH" \
     VIRTUAL_ENV="/opt/venv" \
     PYTHONUNBUFFERED=1
 
-COPY jupyterlab_overrides.json /opt/venv/share/jupyter/lab/settings/overrides.json
 COPY --chmod=0755 startup.sh /usr/local/bin/startup.sh
 
 USER 1000:100
