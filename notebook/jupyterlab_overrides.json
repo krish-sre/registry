@@ -1,6 +1,6 @@
 {
   "@jupyterlab/apputils-extension:themes": {
-    "theme": "dark",
+    "theme": "JupyterLab Dark",
     "overrides": {
       "ui-font-family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
     }
